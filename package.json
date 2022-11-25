@@ -1,0 +1,32 @@
+{
+  "name": "node-exercices",
+  "version": "1.0.0",
+  "description": "Visual Nuts Assessment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ducirilo/node-exercices.git"
+  },
+  "engines" : { 
+    "npm" : ">=9.0.0 <=9.1.2",
+    "node" : ">=14.0.0 <15.0.0"
+  },
+  "scripts": {
+    "test:exercise-1": "ava exercise-1/tests/generate-output.test.js",
+    "start:exercise-1": "node exercise-1/main.js",
+    "test:exercise-2": "ava exercise-2/tests/official-languages.test.js",
+    "start:exercise-2": "node exercise-2/main.js",
+    "test": "ava"
+  },
+  "author": "Carlos E C Guerra",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "ava": "^5.1.0"
+  },
+  "ava": {
+    "require": [
+      "@babel/register"
+    ]
+  }
+}
