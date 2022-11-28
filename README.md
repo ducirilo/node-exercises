@@ -21,7 +21,7 @@ On the root directory, run the following:
 On the root directory, run the following:
 
 ```shell
-    npm test # runs all tests cases
+    npm test # runs all test cases
     npm run test:exercise-1 # runs only test cases for exercise 1
     npm run test:exercise-2 # runs only test cases for exercise 2
 ```

@@ -38,7 +38,7 @@ test(`should return empty output when toNumber is less than from number`, t => {
 test(`should return empty output when parameters are malformed`, t => {
     const expected = [];
 
-    const actual = generateOutput(15, 1);
+    const actual = generateOutput(`a`);
 
     t.deepEqual(actual, expected);
 });
