@@ -11,8 +11,8 @@ want to print the first 500 numbers, ...).
 
 ## Algorithm
 Iterates over the number range from 1 trhough 100. For each number checks if it is divisible by 3 _and_ 5. If so, then adds
-to an output array the expession `Visual Nuts`. If it is not, then checks if it is divisible by only 3 _or_ 5. If it is the case,
-then adds to the output array the expression `Visual` or `Nuts` accordingly. Finally, if the number is not divisible by 3 and 5,
+to an output array the expression `Visual Nuts`. If it is not, then checks if it is divisible by only 3 _or_ 5. If it is the case,
+then adds to the output array the expression `Visual` or `Nuts` accordingly. If the number is not divisible by 3 and 5,
 then adds the number itself to the output array. Finally, prints the contents of the array to the console.
 
 Please, see the implementation of this algorithm + unit tests on the `exercise-1` folder.
